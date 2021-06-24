@@ -1,0 +1,24 @@
+{
+  "name": "amazona",
+  "type": "module", 
+  "version": "1.0.0",
+  "description": "Server API for amazona",
+  "main": "index.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "nodemon --watch backend --exec node --experimental-modules backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frontenddeveloper1975/ecommerce-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/frontenddeveloper1975/ecommerce-app/issues"
+  },
+  "homepage": "https://github.com/frontenddeveloper1975/ecommerce-app#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
