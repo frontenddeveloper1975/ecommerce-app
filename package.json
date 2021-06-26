@@ -1,6 +1,6 @@
 {
   "name": "amazona",
-  "type": "module", 
+  "type": "module",
   "version": "1.0.0",
   "description": "Server API for amazona",
   "main": "index.js",
@@ -20,5 +20,9 @@
   "homepage": "https://github.com/frontenddeveloper1975/ecommerce-app#readme",
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.29.0",
+    "eslint-plugin-react": "^7.24.0"
   }
 }
